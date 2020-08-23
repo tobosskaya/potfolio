@@ -1,8 +1,48 @@
-.test {
-    width: 100%;
-    height: 100px;
-    background: green;
+.about-me-title{
+    text-align: center;
+}
+.about-me-description{
+    text-align: center;
+    width: 540px;
+
+}
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+} 
+.container{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+.projects {
+    padding: 100px 0;
+    background: #34547A;
+}
+.projects-content{
+    color: white;
+    width: 50%;
     float: left;
 
-
+}
+.projects-item {
+    width: 16.6%;
+    float: left;
+}
+.projects-icon{
+    float: left;
+    margin-right: 10px;
+}
+.projects-title{
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-size: 21px;
+}
+.projects-description{
+    font-size: 21px;
 }
