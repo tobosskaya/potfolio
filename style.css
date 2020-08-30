@@ -75,7 +75,7 @@ body {
     margin-top: 30px;
     margin-bottom: 100px;
 }
-.test{
+/*.test{
     height: 100vh;
     width: 100vw;
     background-color:orange;
@@ -85,23 +85,41 @@ body {
     background-attachment: fixed;
     
     /*background-position: 20% 50%;*/
- 
+    }
+
+.gallery {
 
 }
 
-svg:hover {
-    fill: greenyellow;
-}
-.opa{
-    height: 100px;
-    width: 100px;
-    background: violet;
-    position: absolute;
-   top: 100px;
-   left: 0px;
-}
-.grandopa{
-    background: whitesmoke;
+.gallery-item-paper{
+    float: left;
+    width: 25%;
+    height: 480px;
+    background-image: url("paper-icon.png");
     position: relative;
-    height: 300px;
+
+}
+
+.gallery-item-laptop{
+    float: left;
+    width: 25%;
+    height: 480px;
+    background-image: url("laptop-icon.png");
+    position: relative;
+
+}
+.gallery-item-shadow{
+    position: absolute;
+    background:rgb(12 27 107 / 44%);
+    height: 100%;
+    width: 100;
+    left:0;
+    right:0;
+    top:0;
+    bottom: 0;
+    opacity: 0;
+    transition: 1s all ease-in;
+}
+.gallery-item-shadow:hover{
+    opacity:1;
 }
