@@ -75,3 +75,33 @@ body {
     margin-top: 30px;
     margin-bottom: 100px;
 }
+.test{
+    height: 100vh;
+    width: 100vw;
+    background-color:orange;
+    background-image: url("bonitaperra.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    /*background-position: 20% 50%;*/
+ 
+
+}
+
+svg:hover {
+    fill: greenyellow;
+}
+.opa{
+    height: 100px;
+    width: 100px;
+    background: violet;
+    position: absolute;
+   top: 100px;
+   left: 0px;
+}
+.grandopa{
+    background: whitesmoke;
+    position: relative;
+    height: 300px;
+}
