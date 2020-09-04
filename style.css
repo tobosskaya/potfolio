@@ -97,7 +97,6 @@ body {
     height: 480px;
     background-image: url("paper-icon.png");
     position: relative;
-
 }
 
 .gallery-item-laptop{
@@ -122,4 +121,32 @@ body {
 }
 .gallery-item-shadow:hover{
     opacity:1;
+}
+
+.skills-proof{
+    
+}
+.portrait-icon{
+    width: 555px;
+    height: 450px;
+    
+}
+.skills-layout{
+    margin:50px 100px;
+}
+.skills-block{
+
+}
+.microsoft-icon{
+    float: left;
+    width: 155px;
+    height: 60px;
+}
+.fourmicrosofts{
+    margin: 0 auto;
+    width: 1100px;
+    height: 120px
+}
+.white{
+    
 }
