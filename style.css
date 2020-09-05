@@ -124,7 +124,8 @@ body {
     opacity:1;
 }
 
-.skills-proof{
+.photoshop{
+    margin-bottom: 40px;
     
 }
 .portrait-icon{
@@ -134,9 +135,6 @@ body {
 }
 .skills-layout{
     margin:50px 100px;
-}
-.skills-block{
-
 }
 .microsoft {
     float: left;
@@ -149,12 +147,13 @@ body {
 }
 .fourmicrosofts{
     width: 25%;
+    margin-top: 3000px;  ?????
+    margin-bottom: 200px;
 }
 .line{
     width: 445px;
     height: 4px; 
     background: #C4C4C4;
-    margin-top: ;
 }
 .progress{
     width: 350px;
@@ -170,8 +169,41 @@ body {
     width: 50%;
     float: left;
 }
-.skills-block {
+.skills-block{
     overflow: hidden;
     padding-top: 30px;
     padding-bottom: 30px;
 }
+.contact-information{
+    background: #EEEFF1;
+}
+.want-www-title{
+    text-align: center;
+}
+.want-www-description{
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+    display: block;
+}
+.bottom{
+    background: #34547A;
+    height: 151px;
+}
+.signature{
+}
+.name{
+    font-size: 21px;
+}
+.rights{
+    font-size: 13px;
+}
+.vk{
+    text-align: right;
+}
+.vk-3-icon{
+    width: 175px;
+    height: 40px;
+}
+
+    
