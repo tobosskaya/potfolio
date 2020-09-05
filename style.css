@@ -56,6 +56,7 @@ body {
 }
 .how-i-work-layout{
     text-align: center;
+    margin-bottom: 30px;
     
 }
 .how-i-work-title{
@@ -72,8 +73,8 @@ body {
     height: 310px;
 }
 .how-i-work-item{
-    margin-top: 30px;
-    margin-bottom: 100px;
+    width: 600px;
+    margin: 0 auto;
 }
 /*.test{
     height: 100vh;
@@ -137,16 +138,40 @@ body {
 .skills-block{
 
 }
-.microsoft-icon{
+.microsoft {
     float: left;
+    width: 25%;
+    text-align: center;
+}
+.microsoft-icon{
     width: 155px;
     height: 60px;
 }
 .fourmicrosofts{
-    margin: 0 auto;
-    width: 1100px;
-    height: 120px
+    width: 25%;
 }
-.white{
-    
+.line{
+    width: 445px;
+    height: 4px; 
+    background: #C4C4C4;
+    margin-top: ;
+}
+.progress{
+    width: 350px;
+    height: 4px; 
+    background:#34547A;
+}
+
+.skills-proof{
+    width: 50%;
+    float: left;
+}
+.portrait{
+    width: 50%;
+    float: left;
+}
+.skills-block {
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
